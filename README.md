@@ -65,8 +65,8 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
-For PyTorch with CUDA 11.8 support, use the following command
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118ilE.md
+# For PyTorch with CUDA 11.8 support, use the following command
+pip install torch torchvision torchaudio -U --index-url https://download.pytorch.org/whl/cu118
 ```
 
 
